@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list {
+  list-style: none;
+  background-color: rgb(255, 145, 0);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 60%;
+}
+
+.files {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: beige;
+  transition: all 0.5s ease;
+}
+
+.folder {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: azure;
+  transition: all 0.5s ease;
+}
+
+.folder:hover {
+  background-color: rgb(191, 215, 215);
+}
+
+.files:hover {
+  background-color: rgb(230, 230, 190);
+}
+
+.current {
+  margin-top: 20px;
+  padding: 10px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  background-color: burlywood;
+}
